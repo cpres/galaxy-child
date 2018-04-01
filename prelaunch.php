@@ -21,6 +21,8 @@
         // Put your MailChimp API and List ID hehe
         $api_key = $configs['mailchimp_api_key'];
         $list_id = $configs['mailchimp_list_id'];
+
+        error_log($api_key. "and list: ".$list_id);
      
         // Let's start by including the MailChimp API wrapper
         $path = $child_dir.'/inc/MailChimp.php';
@@ -44,7 +46,7 @@
         } else {
             // Display error
             echo "<div class='align-center col-sm-8 offset-sm-2 col-md-6 offset-md-3 alert alert-warning'><h5>";
-            echo "There was an error submitting your email address, please verify and try again.";
+            echo "There was an error submitting your email address, please verify and try again. ".$MailChimp->getLastError();;
             echo "</h5></div>";
             echo $MailChimp->getLastError();
             // Alternatively you can use a generic error message like:
