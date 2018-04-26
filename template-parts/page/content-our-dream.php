@@ -11,14 +11,15 @@
  */
 global $twentyseventeencounter;
 ?>
-
+<div class="container">
 <article id="post-<?php the_ID(); ?>" <?php post_class('basic-page panel '.$twentyseventeencounter.' row'); ?>>
-	<div class="col-md-6 col-xs-12">
-		<p class="aligner-item huge-text tu big-left-h" id="our-dream-h"><?php the_title(); ?></p>
+	<div class="col-md-12 col-lg-7 col-10">
+		<p class="aligner-item big-heading-sizes tu big-left-h" id="our-dream-h"><?php the_title(); ?></p>
 	</div>
-	<div class="entry-content col-md-6 col-xs-12 p30" id="our-dream-p">
+	<div class="entry-content col-md-12 col-lg-5" id="our-dream-p">
 		<?php
 			the_content();
 		?>
 	</div><!-- .entry-content -->
 </article><!-- #post-## -->
+</div>

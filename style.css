@@ -53,15 +53,231 @@ Use it to make something cool, have fun, and share what you've learned with othe
 	color: #4e5659;
 	padding: 20px;
 	text-align:center;
-	letter-spacing: 2px
-	margin-top:10%;
+	letter-spacing: 2px;
+	margin: 25% 0 10px 0;
 }
 #main .tan-bg {
 	max-width: 45%;
+}
+.big-heading-sizes{
+  font-size: 150px;
+}
+@media only screen and (max-width: 992px) {
+  .big-heading-sizes{
+    font-size: 90px;
+  }
+}
+@media only screen and (max-width: 692px) {
+  .big-heading-sizes{
+    font-size: 49px;
+  }
+}
+@media screen and (min-width: 48em) {
+  .site-footer .widget-column.footer-widget-1 {
+    float: left;
+    width: 100%;
+  }
+}
+.top-90{
+  padding-top: 90px;
 }
 .huge-text {font-size: 4em;}
 
 h4 {margin: 0;padding-top:0;}
 h1,h2,h3,h4,h5 {
 	font-family: 'Open Sans', sans-serif;
+}
+.df-logo{
+  height: 35px;
+}
+nav#site-navigation.main-navigation{
+  margin-left: 22%;
+}
+.navigation-top {
+  background-color: #6a737b;
+  border: 0;
+}
+.big-left-h{
+  font-family: 'Oswald', sans-serif;
+  display: block;
+  margin: auto;                             
+  line-height: 1;
+  padding: 30px;
+  padding-bottom: 0;
+  font-weight: bold;
+  margin-bottom: 0;
+  color: #6A737B;
+}
+#around-the-world-h{
+  color: white;
+}
+#our-dream-h{
+  color: #6A737B;
+}
+#our-dream-p{
+  padding-top: 0;
+}
+.center-header{
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+.center-text,h4{
+  color: white;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+}
+.sml-p{
+  padding-top: 45px;
+}
+
+/*Around the world Images*/
+.atw-info h2{
+  padding-top: 30px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+}
+#img-container{
+  
+}
+.imgs{
+  margin: 4.5px 9px 4.5px 9px;
+}
+.big-sqr-img{
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 310px;
+  background-position: center;
+}
+.long-big-img{
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 310px;
+  background-position: 50% 25%;
+}
+.country-title, h1{
+  padding: 10px;
+  font-weight: bold;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+}
+.top-row-left{
+  background-image: url("assets/top-row-left.jpg");
+}
+.top-row-top-right{
+  background-image: url("assets/top-row-top-right.jpg");
+}
+.top-row-bottom-right{
+  background-image: url("assets/top-row-bottom-right.jpg");
+}
+.bottom-row-top-left-pak{
+  background-image: url("assets/bottom-row-top-left-pak.jpg");
+}
+.bottom-row-top-right-afghan{
+  background-image: url("assets/bottom-row-top-right-afghan.JPG");
+}
+.three-smiles{
+  background-image: url("assets/three-smiles.jpg");
+}
+.bottom-row2-left{
+  background-image: url("assets/bottom-row2-left.JPG");
+}
+.bottom-row2-right{
+  background-image: url("assets/bottom-row2-right.JPG");
+}
+.bottom-row-bottom-left-india{
+  background-image: url("assets/bottom-row-bottom-left-india.JPG");
+}
+
+/*test purpose class*/
+.qa{
+  background-color: #FE02AA;
+  color: #FE02AA;
+  height: 500px;
+  width: 500px;
+}
+/*video overlay testing*/
+#close{
+  font-size: 25px;
+  position: relative;
+  font-family: arial;
+  float: right;
+  padding-right: 25px;
+  color: grey;
+}
+.video-overlay{
+  position: fixed;
+  background: rgba(0,0,0,.7);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  z-index: 1;
+}
+.main-video{
+    max-width: 810px;
+    margin: auto;
+    margin-top: 100px;
+    position: relative;
+    z-index: 2;
+}
+
+
+
+.give{
+  color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 310px;
+  background-position: center;
+  background-image: url("assets/Learning1.jpg");
+}
+#give-h{
+font-family: 'Oswald', sans-serif;
+    display: block;
+    /* font-size: 190px; */
+    margin: auto;
+    font-size: 50px;
+    line-height: 1;
+    padding: 30px;
+    padding-bottom: 0;
+    font-weight: bold;
+    margin-bottom: 0;
+    color: white;
+}
+
+.site-footer .widget-area{
+  padding: 0px;
+}
+.site-footer .wrap{
+  padding: 0px;
+}
+footer div.wrap{
+  padding: 0px;
+}
+.get-involved{
+  padding: 30px;
+}
+#get-involved-h{
+  font-family: 'Oswald', sans-serif;
+  display: block;
+  margin: auto;                          
+  line-height: 1;
+  padding-bottom: 30px;
+  font-weight: bold;
+  margin-bottom: 0;
+  color: #6A737B;
+}
+.footer-h1s{
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #6A737B;
+  font-family: 'Oswald', sans-serif;
+}
+.customize-unpreviewable{
+  display: none;
 }
