@@ -39,6 +39,9 @@ Use it to make something cool, have fun, and share what you've learned with othe
 .Aligner-item--bottom {
   align-self: flex-end;
 }
+.para{
+  font-size: 18px;
+}
 .home-title {
     position: absolute;
     top: -200px;
@@ -63,23 +66,65 @@ Use it to make something cool, have fun, and share what you've learned with othe
   font-size: 150px;
 }
 .top-90{
-  padding-top: 90px;
+  padding-top: 80px;
+  bottom: -81px;
 }
 .huge-text {font-size: 4em;}
 
 h4 {margin: 0;padding-top:0;}
+h2{ margin: 0; }
 h1,h2,h3,h4,h5 {
 	font-family: 'Open Sans', sans-serif;
 }
 .df-logo{
-  height: 35px;
-}
-nav#site-navigation.main-navigation{
-  margin-left: 22%;
+  height: 39px;
+  position: absolute;
+  padding-left: 12px;
+  padding-top: 10px;
+  z-index: 2;
 }
 .navigation-top {
   background-color: #6a737b;
   border: 0;
+}
+.wrap{
+  margin-right:10px;
+}
+.menu-toggle {
+  color: white;
+  font-family: 'Oswald', sans-serif;
+}
+
+.main-navigation ul {
+  background: #6a737b;
+  list-style: none;
+  margin: 0;
+  text-align: right;
+}
+
+.navigation-top a {
+    color: white;
+    font-weight: 600;
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+}
+.navigation-top a:hover {
+    color: grey;
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+}
+.navigation-top a:visited {
+    color: white;
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+}
+.main-navigation > div > ul {
+    border: none;
+    padding-right: 10px;
+    font-family: 'Oswald', sans-serif;
+}
+.menu-toggle:focus {
+    outline: 0;
 }
 .big-left-h{
   font-family: 'Oswald', sans-serif;
@@ -119,14 +164,15 @@ nav#site-navigation.main-navigation{
 /*Around the world Images*/
 .atw-info{
   padding: 0px;
+  color: #666;
 }
-.atw-info h2{
+.atw-info,h2{
   padding-top: 30px;
   font-family: 'Oswald', sans-serif;
   font-weight: bold;
 }
-#img-container{
-  
+.atw-info,p{
+  color: #666;
 }
 .imgs{
   margin: 4.5px;
@@ -213,6 +259,14 @@ nav#site-navigation.main-navigation{
     position: relative;
     z-index: 2;
 }
+.tedx-play{
+  height: 498px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(assets/tedx-play.png);
+  margin-bottom: 30px;
+}
 .give{
   color: white;
   background-size: cover;
@@ -248,7 +302,7 @@ footer div.wrap{
 .get-involved{
   padding: 30px;
 }
-#get-involved-h{
+.get-involved-h{
   font-family: 'Oswald', sans-serif;
   display: block;
   margin: auto;                          
@@ -268,7 +322,9 @@ footer div.wrap{
 .customize-unpreviewable{
   display: none;
 }
-
+.site-info a{
+  color: white;
+}
 
 
 
@@ -277,6 +333,14 @@ footer div.wrap{
 @media only screen and (max-width: 992px) {
   .big-heading-sizes{
     font-size: 90px;
+  }
+  .tedx-play{
+    height: 274px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(assets/tedx-play.png);
+    margin-bottom: 30px;
   }
 }
 @media only screen and (max-width: 692px) {
@@ -290,10 +354,40 @@ footer div.wrap{
     width: 100%;
     height: 310px;
   }
+  .tedx-play{
+    height: 220px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(assets/tedx-play.png);
+    margin-bottom: 30px;
+  }
+  .js .menu-toggle {
+    display: block;
+    padding-left: 86px;
+  }
 }
 @media screen and (min-width: 48em) {
   .site-footer .widget-column.footer-widget-1 {
     float: left;
     width: 100%;
+  }
+}
+@media screen and (min-width: 48em) {
+  .itn.panel-image {
+    height: 148vh;
+    max-height: 856px;
+  }
+}
+@media screen and (min-width: 48em) {
+  .panel-image {
+    height: 122vh;
+    max-height: 1200px;
+  }
+}
+@media screen and (min-width: 48em) {
+.navigation-top .wrap {
+    max-width: 1000px;
+    padding: 0;
   }
 }

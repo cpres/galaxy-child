@@ -18,7 +18,7 @@
 		$ratio = $thumbnail[2] / $thumbnail[1] * 100;
 		?>
 
-		<div class="panel-image Aligner" style="background-image: url(<?php echo esc_url( $thumbnail[0] ); ?>);">
+		<div id="top" class="panel-image Aligner" style="background-image: url(<?php echo esc_url( $thumbnail[0] ); ?>);">
 		  <div class="Aligner-item tan-bg tu">
 			<?php
 				/* translators: %s: Name of current post */

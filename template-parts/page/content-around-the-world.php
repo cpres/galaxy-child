@@ -19,7 +19,7 @@ global $twentyseventeencounter;
 		// Calculate aspect ratio: h / w * 100%.
 		$ratio = $thumbnail[2] / $thumbnail[1] * 100;
 		?>
-		<div class="panel-image" style="background-image: url(<?php echo esc_url( $thumbnail[0] ); ?>);">
+		<div class="panel-image" id="around-the-world" style="background-image: url(<?php echo esc_url( $thumbnail[0] ); ?>);">
 
 <div class="container">
 <div class="row">
@@ -27,7 +27,7 @@ global $twentyseventeencounter;
 		  <div class="col-md-8 col-xs-12">
 			<p class="aligner-item big-heading-sizes tu big-left-h" id="around-the-world-h"><?php the_title(); ?></p>
 		  </div>
-		  <div class="col-md-4 offset-md-8 col-lg-2 col-7 offset-4 center-text top-90">
+		  <div class="col-md-5 offset-md-7 col-lg-5 col-7 offset-4 center-text top-90">
 			<?php
 				/* translators: %s: Name of current post */
 				the_content();
@@ -47,23 +47,23 @@ global $twentyseventeencounter;
 <div class="atw-info">
 	<div class="container">
 		<h2>DREAMFLY PILLARS</h2>
-		<p>
+		<p class="col-md-5">
 			Etiam eleifend egestas dui, iaculis euismod neque ultricies nec. Etiam ultrices porttitor purus. Duis posuere tempus leo, sed lobortis lacus. Ut finibus metus eros, in facilisis nibh ornare non.
 		</p>
 		<div class="row">
-			<div class="offset-2">
+			<div class="offset-2 col-md-4 offset-md-0">
 				<h2>EDUCATION</h2>
 				<p>
 					To read, write, reason, and to question comfortable asumptions which inform beliefs.
 				</p>
 			</div>
-			<div class="offset-2">
+			<div class="offset-2 col-md-4 offset-md-0">
 				<h2>EXPOSURE</h2>
 				<p>
 					To reach out to, to experience, and to understand the unknown enemy.
 				</p>
 			</div>
-			<div class="offset-2">
+			<div class="offset-2 col-md-4 offset-md-0">
 				<h2>EMPOWERMENT</h2>
 				<p>
 					To imagine and realize a better reality for oneself and others.

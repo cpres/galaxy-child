@@ -32,8 +32,9 @@
 
 		<?php if ( has_nav_menu( 'top' ) ) : ?>
 			<div class="navigation-top">
-				<div class="wrap navbar">
-					<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/df-logo.png" class="df-logo">
+				<a href="#top"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/df-logo.png" class="df-logo"></a>
+				<!-- <a href="home"><div class="df-logo"></div></a> -->
+				<div class="wrap navbar"><!-- <a class="navbar-brand" href="#">Navbar</a> -->
 					<?php get_template_part( 'template-parts/navigation/navigation', 'top' ); ?>
 				</div><!-- .wrap -->
 			</div><!-- .navigation-top -->

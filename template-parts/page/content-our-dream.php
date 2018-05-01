@@ -16,7 +16,7 @@ global $twentyseventeencounter;
 	<div class="col-md-12 col-lg-7 col-10">
 		<p class="aligner-item big-heading-sizes tu big-left-h" id="our-dream-h"><?php the_title(); ?></p>
 	</div>
-	<div class="entry-content col-md-12 col-lg-5" id="our-dream-p">
+	<div class="entry-content col-md-12 col-lg-5 para" id="our-dream-p">
 		<?php
 			the_content();
 		?>

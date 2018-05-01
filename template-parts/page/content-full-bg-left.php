@@ -28,20 +28,16 @@ global $twentyseventeencounter;
 		// Calculate aspect ratio: h / w * 100%.
 		$ratio = $thumbnail[2] / $thumbnail[1] * 100;
 	?>
-	<div class="panel-image" style="background-image: url(<?php echo esc_url( $thumbnail[0] ); ?>);">
+	<div id="in-the-news" class="itn panel-image" style="background-image: url(<?php echo esc_url( $thumbnail[0] ); ?>);">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12 col-12">	
 					<h2 class="center-header tu big-heading-sizes"><?php the_title();?></h2>
 				</div>
-				<div class="col-md-5 col-12 center-text">
+				<div class="col-md-12 col-12 row" style ="margin: auto;">
 					<?php /* translators: %s: Name of current post */
 						the_content();
 					?>
-				</div>
-				<div class="col-12">
-					<h1><a href="#" style="font-style: none; color: white;">TEDx SEATTLE, WA 2012</a></h1>
-					<p style="color: white;">Umaimah Mendhro describes how small acts can bring large changes to our local and global communities.</p>
 				</div>
 			</div>
 		</div>

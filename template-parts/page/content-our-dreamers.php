@@ -20,7 +20,7 @@ global $twentyseventeencounter;
 		$ratio = $thumbnail[2] / $thumbnail[1] * 100;
 		?>
 
-		<div class="panel-image " style="background-image: url(<?php echo esc_url( $thumbnail[0] ); ?>);">
+		<div class="panel-image " id="our-dreamers" style="background-image: url(<?php echo esc_url( $thumbnail[0] ); ?>);">
 <div class="container">
 <div class="row">
 		  <div class="col-lg-12 col-12">	
