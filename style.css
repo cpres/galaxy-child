@@ -226,6 +226,7 @@ h1,h2,h3,h4,h5 {
 }
 .bottom-row-bottom-left-india{
   background-image: url("assets/bottom-row-bottom-left-india.JPG");
+  margin-left: 13px;
 }
 
 /*test purpose class*/
@@ -365,6 +366,10 @@ footer div.wrap{
   .js .menu-toggle {
     display: block;
     padding-left: 86px;
+  }
+  .bottom-row-bottom-left-india{
+    background-image: url("assets/bottom-row-bottom-left-india.JPG");
+    margin-left: 4.5px;
   }
 }
 @media screen and (min-width: 48em) {

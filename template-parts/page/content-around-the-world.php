@@ -46,10 +46,7 @@ global $twentyseventeencounter;
 
 <div class="atw-info">
 	<div class="container">
-		<h2>DREAMFLY PILLARS</h2>
-		<p class="col-md-5">
-			Etiam eleifend egestas dui, iaculis euismod neque ultricies nec. Etiam ultrices porttitor purus. Duis posuere tempus leo, sed lobortis lacus. Ut finibus metus eros, in facilisis nibh ornare non.
-		</p>
+		<h2 style="padding-bottom: 30px;">DREAMFLY PILLARS</h2>
 		<div class="row">
 			<div class="offset-2 col-md-4 offset-md-0">
 				<h2>EDUCATION</h2>
@@ -70,7 +67,7 @@ global $twentyseventeencounter;
 				</p>
 			</div>
 		</div>
-		<div id="img-container" class="row">
+		<div id="img-container" style="margin-bottom: 24px;" class="row">
 			<div class="big-sqr-img imgs top-row-left col-md-7">
 				<div class="country-title">
 					<h1>RWANDA</h1>
